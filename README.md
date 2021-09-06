@@ -129,6 +129,27 @@ bool = isNonEnumerableProperty( { '[object Object]': false }, {} );
 
 <!-- /.examples -->
 
+<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
+
+<section class="related">
+
+* * *
+
+## See Also
+
+-   [`@stdlib/assert/is-configurable-property`][@stdlib/assert/is-configurable-property]: test if an object's own property is configurable.
+-   [`@stdlib/assert/is-enumerable-property`][@stdlib/assert/is-enumerable-property]: test if an object's own property is enumerable.
+-   [`@stdlib/assert/is-nonconfigurable-property`][@stdlib/assert/is-nonconfigurable-property]: test if an object's own property is non-configurable.
+-   [`@stdlib/assert/is-nonenumerable-property-in`][@stdlib/assert/is-nonenumerable-property-in]: test if an object's own or inherited property is non-enumerable.
+-   [`@stdlib/assert/is-readable-property`][@stdlib/assert/is-readable-property]: test if an object's own property is readable.
+-   [`@stdlib/assert/is-writable-property`][@stdlib/assert/is-writable-property]: test if an object's own property is writable.
+
+</section>
+
+<!-- /.related -->
+
+<!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
+
 
 <section class="main-repo" >
 
@@ -145,11 +166,6 @@ For more information on the project, filing bug reports and feature requests, an
 [![Chat][chat-image]][chat-url]
 
 ---
-
-## License
-
-See [LICENSE][stdlib-license].
-
 
 ## Copyright
 
@@ -182,7 +198,21 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 
 [stdlib-authors]: https://github.com/stdlib-js/stdlib/graphs/contributors
 
-[stdlib-license]: https://raw.githubusercontent.com/stdlib-js/assert-is-nonenumerable-property/main/LICENSE
+<!-- <related-links> -->
+
+[@stdlib/assert/is-configurable-property]: https://github.com/stdlib-js/assert-is-configurable-property
+
+[@stdlib/assert/is-enumerable-property]: https://github.com/stdlib-js/assert-is-enumerable-property
+
+[@stdlib/assert/is-nonconfigurable-property]: https://github.com/stdlib-js/assert-is-nonconfigurable-property
+
+[@stdlib/assert/is-nonenumerable-property-in]: https://github.com/stdlib-js/assert-is-nonenumerable-property-in
+
+[@stdlib/assert/is-readable-property]: https://github.com/stdlib-js/assert-is-readable-property
+
+[@stdlib/assert/is-writable-property]: https://github.com/stdlib-js/assert-is-writable-property
+
+<!-- </related-links> -->
 
 </section>
 
