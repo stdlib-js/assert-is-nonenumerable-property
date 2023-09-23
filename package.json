@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/assert-is-nonenumerable-property",
-  "version": "0.0.7",
+  "version": "0.1.0",
   "description": "Test if an object's own property is non-enumerable.",
   "license": "Apache-2.0",
   "author": {
@@ -37,13 +37,13 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/assert-has-own-property": "^0.0.7",
-    "@stdlib/assert-is-enumerable-property": "^0.0.7"
+    "@stdlib/assert-has-own-property": "^0.1.0",
+    "@stdlib/assert-is-enumerable-property": "^0.1.0"
   },
   "devDependencies": {
-    "@stdlib/assert-is-boolean": "^0.0.8",
-    "@stdlib/bench": "^0.0.12",
-    "@stdlib/utils-define-property": "^0.0.9",
+    "@stdlib/assert-is-boolean": "^0.1.0",
+    "@stdlib/bench": "^0.1.0",
+    "@stdlib/utils-define-property": "^0.1.0",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
     "tap-min": "git+https://github.com/Planeshifter/tap-min.git"
