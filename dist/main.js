@@ -1,7 +1,7 @@
-/*
+/**
 * @license Apache-2.0
 *
-* Copyright (c) 2019 The Stdlib Authors.
+* Copyright (c) 2018 The Stdlib Authors.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -16,14 +16,22 @@
 * limitations under the License.
 */
 
-// TypeScript Version: 4.1
+'use strict';
+
+// MODULES //
+
+var hasOwnProp = require( '@stdlib/assert-has-own-property' );
+var isEnumerableProperty = require( '@stdlib/assert-is-enumerable-property' );
+
+
+// MAIN //
 
 /**
 * Tests if an object's own property is non-enumerable.
 *
-* @param value - value to test
-* @param property - property to test
-* @returns boolean indicating if an object property is non-enumerable
+* @param {*} value - value to test
+* @param {*} property - property to test
+* @returns {boolean} boolean indicating if an object property is non-enumerable
 *
 * @example
 * var defineProperty = require( '@stdlib/utils-define-property' );
@@ -45,9 +53,14 @@
 * bool = isNonEnumerableProperty( obj, 'beep' );
 * // returns true
 */
-declare function isNonEnumerableProperty( value: any, property: any ): boolean;
+function isNonEnumerableProperty( value, property ) {
+	if ( hasOwnProp( value, property ) === false ) {
+		return false;
+	}
+	return ( isEnumerableProperty( value, property ) === false );
+}
 
 
 // EXPORTS //
 
-export = isNonEnumerableProperty;
+module.exports = isNonEnumerableProperty;
