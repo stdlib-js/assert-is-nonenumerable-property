@@ -1,39 +1,5 @@
+"use strict";var t=function(e,r){return function(){return r||e((r={exports:{}}).exports,r),r.exports}};var i=t(function(l,s){
+var a=require('@stdlib/assert-has-own-property/dist'),n=require('@stdlib/assert-is-enumerable-property/dist');function u(e,r){return a(e,r)===!1?!1:n(e,r)===!1}s.exports=u
+});var o=i();module.exports=o;
 /** @license Apache-2.0 */
-
-'use strict';
-
-/**
-* Test whether an object's own property is non-enumerable.
-*
-* @module @stdlib/assert-is-nonenumerable-property
-*
-* @example
-* var defineProperty = require( '@stdlib/utils-define-property' );
-* var isNonEnumerableProperty = require( '@stdlib/assert-is-nonenumerable-property' );
-*
-* var obj = {
-*     'boop': true
-* };
-*
-* defineProperty( obj, 'beep', {
-*     'configurable': false,
-*     'enumerable': false,
-*     'writable': true,
-*     'value': 'beep'
-* });
-*
-* var bool = isNonEnumerableProperty( obj, 'boop' );
-* // returns false
-*
-* bool = isNonEnumerableProperty( obj, 'beep' );
-* // returns true
-*/
-
-// MODULES //
-
-var main = require( './main.js' );
-
-
-// EXPORTS //
-
-module.exports = main;
+//# sourceMappingURL=index.js.map
