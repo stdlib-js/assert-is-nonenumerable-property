@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import isNonEnumerableProperty from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-nonenumerable-property@deno/mod.js';
+import isNonEnumerableProperty from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-nonenumerable-property@v0.1.1-deno/mod.js';
 ```
 
 #### isNonEnumerableProperty( value, property )
@@ -98,7 +98,7 @@ bool = isNonEnumerableProperty( obj, 'foo' );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import isNonEnumerableProperty from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-nonenumerable-property@deno/mod.js';
+import isNonEnumerableProperty from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-nonenumerable-property@v0.1.1-deno/mod.js';
 
 var bool = isNonEnumerableProperty( [ 'a' ], 'length' );
 // returns true
